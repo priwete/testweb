@@ -1,0 +1,211 @@
+body {
+    font-family: Mulish, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    text-overflow: ellipsis
+}
+
+header {
+    background-color: #1a2c4e; 
+    padding: 0; 
+    margin: 0;
+}
+
+.Logo {
+    border-radius: 50%; 
+    margin: 8.5px; 
+    padding: 0; 
+    width: 75px; 
+    height: 72px;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Logo:hover {
+    width: 112.5px;
+    height: 108px;
+}
+
+.col-sm-2 {
+    justify-content: center;
+    align-items: center;
+    display: flex
+}
+.FirstH1 {
+    margin: 20px 0;
+    font-size: 32px;
+    display: flex;
+    justify-self: center
+}
+
+.form-control {
+    border-radius: 25px;
+    width: 800px !important;
+    height: 70px;
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 50px !important; 
+    margin-bottom: 50px !important
+}
+
+.map-embed {
+    border-radius: 25px !important;
+}
+
+.CheckBtn {
+    color: white;
+    background-color: #ff6b35;
+    justify-content: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-primary {
+    background-color: #ff6b35 !important;
+    border-color: #ff6b35 !important;
+    width: 150px !important;
+    height: 50px !important;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.CardsLogos {
+    width: 72px; 
+    height: 72px; 
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.misc {
+    width: 1000px;
+    height: 340px;
+    background-image: url(ad3.png);
+    background-size: 110%;
+    border-radius: 25px;
+    justify-self: center;
+    margin-top: 100px !important;
+    margin-bottom: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Contacts {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    background-color: #ff6b35;
+    border-radius: 10px;
+    justify-content: center;
+    align-items:center;
+    gap: 0px;
+    width: 400px;
+    height: 140px;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: 100px 100px 200px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Contacts img {
+    width: 60px;
+    height: 60px;
+    display: grid;
+    margin: 0px;
+    justify-self: center;
+}
+
+.Abzasy {
+    color: white;
+    justify-content: center;
+    align-items:center; 
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    row-gap: 0px;
+}
+
+footer {
+    background-color: #1a2c4e;
+}
+
+.ContactsFooter {
+    width: 180px;
+    height: 62px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+    background-color: #ff6b35;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+    gap: 0px;
+    grid-template-columns: 40px 40px 100px;
+    justify-content: center;
+    grid-column: 6;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.AbzasyFooter {
+    display:grid;
+    color: white;
+    justify-content: center;
+    align-items:center; 
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+    row-gap: 0px;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer .row {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+.gallery-track {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.gallery-slide {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.gallery-slide img {
+    max-width: 100%;
+    max-height: 500px;
+    object-fit: contain;
+}
+
+#slider {
+    margin: 20px 0;
+    width: 100%;
+}
+.image {
+    width: 100%;
+    padding: 0;
+    color: white;
+}
+
+.TextHover:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
