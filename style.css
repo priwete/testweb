@@ -1,0 +1,275 @@
+.Article {
+    font-size: 20px;
+    display: flex; 
+    align-items: center; 
+    margin-top: 100px; 
+    margin-left: 75px; 
+    margin-right: 75px; 
+    gap: 10px; 
+    justify-content: center;
+}
+article {
+    width: 600px; 
+    height: 500px; 
+    display:flex; 
+    background-color: #d9d9d9; 
+    border-radius: 25px; 
+    justify-content: center; 
+    gap: 20px; 
+    align-items: center; 
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.ChooseTarif {
+    color: white;
+    background-color: #ff6b35;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    margin: 50px;
+    font-size: 24px;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+
+}
+
+.ChooseTarif:hover {
+    color: black;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 400px;
+    height: 100px;
+    align-items: center;
+    margin: 50px;
+    font-size: 24px;
+    flex-direction: column;
+}
+
+.ChooseTarifFlex {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.ArticleSection {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SecondH1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px
+}
+
+.HeroBox {
+    background-image: url(kartinka.png);
+    border-radius: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    font-size: 28px;
+    text-shadow: 1px 1px 5px black;
+    color: white;
+    width: 1200px;
+    height: 300px;
+    background-size: 110%;
+    margin-bottom: 100px;   
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.Main {
+    background-image: url(img2.png);
+    border-radius: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    justify-content: center;
+    height: 470px;
+    gap: 75px;
+    width: 1200px;
+    margin-bottom: 100px;
+    background-size: 110%;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    
+}
+.TradeCard {
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.ChooseTarifBT {
+    color: white;
+    background-color: #ff6b35;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 24px;
+    flex-direction: column;
+    transition: background-color 0.3s ease;
+
+}
+.ChooseTarifBT:hover {
+    color: black;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    border-radius: 25px;
+    width: 300px;
+    height: 80px;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 24px;
+    flex-direction: column;
+}
+.ParentCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #1a2c4e; 
+    padding: 0px; 
+    margin: 0;
+}
+.Contacts {
+    width: 180px;
+    height: 62px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 240px;
+    background-color: #ff6b35;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+
+.Abzasy {
+    display:flex;
+    color: white;
+    justify-content: center;
+    align-items:center; 
+    font-size: 8px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    row-gap: 0px;
+}
+
+body {
+    font-family: Mulish, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    width: 100%; 
+    height: 100%; 
+    text-align: center;
+    text-overflow: ellipsis;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    background-color: #1a2c4e; 
+    padding: 0px; 
+    margin: 0;
+}
+
+.Banner {
+    display: flex;
+    width: 600px;
+    height: 500px;
+    border-radius: 25px;
+    background-image: url(ad1.png);
+    background-size: 100%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Shapka {
+    display: flex; 
+    height: 100%; 
+    gap: 110px; 
+    justify-content: center; 
+    align-items: center; 
+    margin-left: 75px; 
+    margin-right: 75px
+}
+
+.Logo {
+    border-radius: 50%; 
+    margin: 8.5px; 
+    padding: 0; 
+    width: 75px; 
+    height: 72px;
+    transition: width 0.3s ease;
+    transition: height 0.3s ease;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.Logo:hover {
+    width: 112.5px;
+    height: 108px;
+}
+
+.FirstHero {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column; 
+    height: 100vh; 
+    background-color: #d9d9d9; 
+    border-radius: 25px; 
+    height: 100px; 
+    width: 960px;
+    margin-left: 280px;
+    margin-right: 280px; 
+    margin-top: 100px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.FirstH1 {
+    margin-bottom: 0;
+    font-size: 32px
+}
+
+.MainBlock {
+    margin-left: 75px;
+    margin-right: 75px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.TextHover:hover {
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
